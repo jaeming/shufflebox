@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+		<title></title>
+		<meta name="description" content="">
+		<meta name="viewport" content="width=device-width">
+		<link rel="stylesheet" href="css/styles.css" type="text/css">
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+		<link href='http://fonts.googleapis.com/css?family=Open+Sans:400,700,300' rel='stylesheet' type='text/css'>
+		
+	</head>
+	<body>
+<div class="album-choice">
+<button onclick="load_album1()">playlist 1</button>
+<button onclick="load_album2()">playlist 2</button>
+ </div>
+
+ <audio controls id="mp3" onended="nextSong()">
+<!--   <source id="ogg" src="" type="audio/ogg"> -->
+  
+Fallback Player Here
+</audio>
+
+
+<div id="playlist" class="list"></div>
+
+<script src="js/main.js" type="text/javascript" charset="utf-8"></script>
+
+	</body>
+</html>

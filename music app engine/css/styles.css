@@ -1,0 +1,57 @@
+html {
+	background: whitesmoke;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: whitesmoke;
+}
+
+.selected {
+    font-weight: bold
+}
+
+.list {
+	background: #4a4a4a;
+	width: 300px;
+	padding: 0px;
+	margin: 0px;
+	border-radius: 4px;
+	}
+
+ul {
+	padding-left: 0;
+	margin-top: 6px;
+}
+
+li {
+	list-style: none;
+	text-align: center;
+}
+
+h3 {
+	color: whitesmoke;
+	text-align: center;
+	padding: 10px 2px 0 2px;
+	margin: 0;
+}
+
+.album-choice {
+	display: block;
+}
+
+audio {
+	padding-top: 10px;
+	margin: 0px;
+}
+
+.tracks {
+	padding: 3px;	
+}
+
